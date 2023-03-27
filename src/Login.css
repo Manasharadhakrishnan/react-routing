@@ -1,0 +1,27 @@
+:root{
+    --main-bgg:#e91e63;
+  }
+  body{
+    background: url(https://wallpapercave.com/wp/wp4974476.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main-bgg {
+    background: var(--main-bgg) !important;
+    
+  }
+  
+  input:focus, button:focus {
+    border: 1px solid var(--main-bgg) !important;
+    box-shadow: none !important;
+  }
+  
+  .form-check-input:checked {
+    background-color: var(--main-bgg) !important;
+    border-color: var(--main-bgg) !important;
+  }
+  
+  .card, .btn, input{
+    border-radius:20px ;
+  }
+  .error{ color: red;}

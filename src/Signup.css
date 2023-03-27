@@ -1,0 +1,26 @@
+:root{
+  --main-bg:#e91e63;
+}
+body{
+  background: url(https://wallpapercave.com/wp/wp4974476.jpg);
+  background-size: cover;
+}
+.main-bg {
+  background: var(--main-bg) !important;
+  
+}
+
+input:focus, button:focus,  textarea:focus{
+  border: 1px solid var(--main-bg) !important;
+  box-shadow: none !important;
+}
+
+.form-check-input:checked, .form-check-textarea:checked{
+  background-color: var(--main-bg) !important;
+  border-color: var(--main-bg) !important;
+}
+
+.card, .btn, input,textarea{
+  border-radius:20px ;
+  
+}
